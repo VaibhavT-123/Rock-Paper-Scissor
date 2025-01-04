@@ -63,3 +63,17 @@ img{
   background: #000;
   display: inline;
 }
+@media screen and (max-width: 580px) {
+  h1 {
+    width: 150%; /* Adjust the width as needed */
+    text-align: center; 
+    font-size: 1.5rem; 
+  }
+
+  #msg{
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 10px; 
+    font-size: 1.9rem; 
+  }
+}
